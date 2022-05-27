@@ -9,7 +9,7 @@ namespace WorkWithGit
             PrintHello();
         }
 
-        static void PrintHello()
+        static void PrintHello(ConsoleColor textColor = ConsoleColor.White)
         {
             Console.WriteLine("Hello World!");
         }
